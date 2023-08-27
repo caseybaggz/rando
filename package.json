@@ -1,12 +1,14 @@
 {
   "name": "rando",
   "scripts": {
+    "prepare": "panda codegen",
     "dev": "solid-start dev",
     "build": "solid-start build",
     "start": "solid-start start"
   },
   "type": "module",
   "devDependencies": {
+    "@pandacss/dev": "^0.13.0",
     "@types/node": "^18.16.19",
     "esbuild": "^0.14.54",
     "postcss": "^8.4.26",

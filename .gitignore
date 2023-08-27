@@ -22,6 +22,7 @@ netlify
 
 # Temp
 gitignore
+styled-system
 
 # System Files
 .DS_Store
